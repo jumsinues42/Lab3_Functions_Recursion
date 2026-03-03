@@ -1,15 +1,11 @@
 import access_control as ac
 import media_engine as me
 
-# ==========================================
-# 1. INPUT YOUR DATA HERE
-# ==========================================
-SEED_NUM = 5        # <--- Replace with the last digit of your ID
-FAVORITE_ARTIST = "IU" # <--- Replace with your artist in UPPERCASE
+SEED_NUM = 8    
+FAVORITE_ARTIST = "Rob Deniel" 
 
-# ==========================================
+
 # 2. AUTOMATED CALCULATIONS
-# ==========================================
 CONTROL_NUM = max(1, SEED_NUM) #
 artist_len = len(FAVORITE_ARTIST)
 
